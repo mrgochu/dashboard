@@ -134,14 +134,16 @@ body{
 .pictureIcon{
     width: 40px;
     height: 40px;
-    background-color: black;
     border-radius: 50%;
+}
+
+.topMenuText{
+    font-weight: bold;
 }
 
 .profilePic{
     width: 75px;
     height: 75px;
-    background-color: black;
     border-radius: 50%;
 }
 
@@ -220,7 +222,8 @@ body{
 .announcements{
     border-radius: 15px;
     display: grid;
-    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
     background-color: white;
 }
 
@@ -235,7 +238,7 @@ body{
 .announcement p, .announcement1 p{
     height: calc(1.2em*6);
     overflow: hidden;
-    margin-top: 0;
+    margin-top: 2px;
 }
 
 .announcement h3, .announcement1 h3{
@@ -245,4 +248,26 @@ body{
 .trending{
     background-color: white;
     border-radius: 15px;
+    display: grid;
+    gap:25px;
+    padding: 15px;
+    padding-left: 30px;
+    width:60%;
+}
+
+.trendingProfiles{
+    width: 45px;
+    height: 45px;
+    grid-row: 1/3;
+}
+
+.trends{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: max-content 1fr;
+    column-gap: 15px;
+}
+
+.atUser{
+    font-weight: bold;
 }
