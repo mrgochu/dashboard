@@ -237,7 +237,7 @@ body{
 
 .announcement p, .announcement1 p{
     height: calc(1.2em*6);
-    overflow: hidden;
+    overflow: auto;
     margin-top: 2px;
 }
 
